@@ -1,0 +1,14 @@
+.high{
+    color: white;
+    background-color: red;
+}
+
+.medium{
+    color: black;
+    background-color: goldenrod;
+}
+
+.low{
+    color: black;
+    background-color: lightgreen;
+}

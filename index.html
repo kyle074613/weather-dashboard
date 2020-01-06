@@ -24,27 +24,29 @@
 
     <div class="container">
         <div class="row">
-
             <!-- Search Bar and Search history  -->
-            <div class="col" id="search-col">Search for a city:
-                <div class="row m-0">
-                    <input type="text" id="search-bar">
-                    <button type="button" class="btn btn-primary" id="search-btn"><i class="fa fa-search"
-                            aria-hidden="true"></i></button>
+            <div class="col-4" id="search-col">Search for a city:
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="search-bar" aria-label="Recipient's username"
+                        aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="search-btn"><i class="fa fa-search"
+                                aria-hidden="true"></i></button>
+                    </div>
                 </div>
 
                 <!-- Search history goes here -->
                 <ul class="list-group mt-3" id="search-history"></ul>
+
             </div>
 
             <!-- Weather Details -->
-            <div class="col" id="weather-col"></div>
+            <div class="col-8" id="weather-col"></div>
         </div>
-    </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
